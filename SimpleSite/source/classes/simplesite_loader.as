@@ -18,7 +18,7 @@ package
 			loaderView.y = 42;
 			addChild(loaderView);
 			
-			var vl:ViewLoader = loaderFor("main");
+			var vl:ViewLoader = loaderFor("home");
 			vl.addEventListener(Event.COMPLETE, onLoadComplete);
 			vl.start();
 		}

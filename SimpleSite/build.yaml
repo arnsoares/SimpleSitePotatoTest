@@ -14,15 +14,21 @@ source-path:
 applications:
     - class: source/classes/simplesite_loader.as
       output: public/simplesite_loader.swf
+      
     - class: source/classes/simplesite_main.as
       output: public/simplesite_main.swf
+      
     - class: source/classes/simplesite/views/AlbumView.as
       output: public/AlbumView.swf
+      
     - class: source/classes/simplesite/views/WebCamView.as
       output: public/WebCamView.swf
+      
     - class: source/classes/simplesite/views/HomeView.as
       output: public/HomeView.swf
       # exclude: source/classes/Other.as
+      
+      
 # asdoc:
 #     title: "My ActionScript project"
 #     footer: "My ActionScript project footer"
